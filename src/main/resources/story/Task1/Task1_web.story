@@ -1,4 +1,4 @@
-Description: Login to the application and verify that username is displayed on the page 
+Description: Login to the application and verify that username is displayed on the page
 
 Scenario: Login to the application
 Given I am on the main application page

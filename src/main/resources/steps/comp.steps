@@ -8,7 +8,7 @@ When I click on element located `By.xpath(//*[@type="submit"])`
 
 Composite: When I check the Home Page view
 When I change context to element located `By.xpath(//div[@id="trello-root"])`
-When I compare against baseline with `TrelloHome` ignoring: 
+When I compare against baseline with `TrelloHome` ignoring:
 |ELEMENT|
 |By.xpath(//*[@class="content-all-boards"])|
 
@@ -17,7 +17,7 @@ When I click on element located `By.xpath(//div[@class="_1kVIqSPIEnaXjs"])`
 When I wait until state of element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/members"])` is visible
 When I click on element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/members"])`
 When I change context to element located `By.xpath(//div[@id="trello-root"])`
-When I compare against baseline with `MembersPage` ignoring: 
+When I compare against baseline with `MembersPage` ignoring:
 |ELEMENT|
 |By.xpath(//*[@data-test-id="add-members-input"])|
 
@@ -26,6 +26,6 @@ When I click on element located `By.xpath(//div[@class="_1kVIqSPIEnaXjs"])`
 When I wait until state of element located `By.xpath(//*[@class="content-all-boards"])` is visible
 When I click on element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/account"])`
 When I change context to element located `By.xpath(//div[@id="trello-root"])`
-When I compare against baseline with `Settings` ignoring: 
+When I compare against baseline with `Settings` ignoring:
 |ELEMENT|
 ||
