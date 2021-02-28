@@ -1,4 +1,4 @@
-Description: 5 pages visual checks
+Description: Pages and elements visual checks
 
 GivenStories: preconditions/precondLogin.story
 
@@ -25,6 +25,7 @@ When I compare against baseline with `BoardsMenu` ignoring:
 When I click on element located `By.xpath(//*[@aria-label="Close"])`
 
 Scenario: Visual test of the Members page
+When I click on element located `By.xpath(//div[@class="_1kVIqSPIEnaXjs"])`
 When I wait until state of element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/members"])` is visible
 When I click on element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/members"])`
 When I change context to element located `By.xpath(//div[@id="trello-root"])`

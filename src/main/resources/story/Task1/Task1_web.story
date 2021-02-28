@@ -8,4 +8,3 @@ Then the text '<firstName>' exists
 Examples:
 |email           |password        |firstName             |
 |nwpi39@gmail.com|TreLLo_0_testFTM|FTM_Vividus_dbiaznosau|
-
