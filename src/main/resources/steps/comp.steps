@@ -6,12 +6,6 @@ When I click on element located `By.xpath(//*[@type="submit"])`
 When I enter `<password>` in field located `By.xpath(//*[@id="password"])`
 When I click on element located `By.xpath(//*[@type="submit"])`
 
-Composite: When I check the Home Page view
-When I change context to element located `By.xpath(//div[@id="trello-root"])`
-When I compare against baseline with `TrelloHome` ignoring:
-|ELEMENT|
-|By.xpath(//*[@class="content-all-boards"])|
-
 Composite: When I check the Members Page view
 When I click on element located `By.xpath(//div[@class="_1kVIqSPIEnaXjs"])`
 When I wait until state of element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau/members"])` is visible
@@ -19,7 +13,7 @@ When I click on element located `By.xpath(//li//a[@href="/ftm_vividus_dbiaznosau
 When I change context to element located `By.xpath(//div[@id="trello-root"])`
 When I compare against baseline with `MembersPage` ignoring:
 |ELEMENT|
-|By.xpath(//*[@data-test-id="add-members-input"])|
+||
 
 Composite: When I check the Settings Page view
 When I click on element located `By.xpath(//div[@class="_1kVIqSPIEnaXjs"])`
